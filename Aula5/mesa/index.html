@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/switch.css">
+  <title>Aula 5 - Modificar elementos com JS </title>
+</head>
+
+<body class="dark">
+
+  <div class="container">
+    <h1>Recomendações de Leituras</h1>
+
+    <!-- Exemplo de switch, retirado do W3Schools 
+      -> https://www.w3schools.com/howto/howto_css_switch.asp
+    -->
+    <label class="switch">
+      <!-- OnChnaged -> Fica obervando 'mudanças' no comportamento do input -->
+      <input id="toggleSwitch" type="checkbox" onchange="alteraTema()">
+      <span class="slider"></span>
+    </label>
+
+  </div>
+
+  <div class="container">
+    <div class="item">
+      <img src="./imagens/AGIL.png">
+      <h2>Ágil do jeito certo</h2>
+      <p>
+        Em Ágil do jeito certo, três experientes e renomados consultores da Bain & Company
+        explicam de forma clara as principais dificuldades dos gestores na hora de adotar o
+        ágil e todas as armadilhas que eles podem vir a enfrentar. Utilizando exemplos de grandes empresas como Bosch,
+        Amazon, Spotify e Dell, os autores vão ajudá-lo a iniciar sua jornada ágil evitando inúmeros erros já
+        conhecidos e vislumbrar um futuro de resultados cada vez melhores..
+      </p>
+    </div>
+    <div class="item">
+      <img src="./imagens/FunRetrospectives.png">
+      <h2>FunRetrospectives</h2>
+      <p>
+        O primeiro é um time alinhado e comprometido com o projeto. Cada membro de um time traz consigo
+        experiências e perspectivas de vida diferentes que, juntas, podem potencializar o coletivo. Porém,
+        sabemos que um grupo de pessoas não se torna um time da noite para o dia. Sempre haverá altos e baixos,
+        mas tudo o que acontece é essencial para o crescimento do time e um ambiente divertido e seguro
+        permite que você obtenha o melhor resultado em cada situação.
+      </p>
+    </div>
+    <div class="item">
+      <img src="./imagens/Gatilhos mentais.png">
+      <h2>Gatilhos mentais</h2>
+      <p>
+        "Gatilhos Mentais" (2019), escrito por Gustavo Ferreira, oferece estratégias comprovadas para que você possa construir um negócio sólido usando todos os recursos da mente humana a seu favor, de forma ética, íntegra e lucrativa.
+        Com o livro "Gatilhos Mentais" você vai descobrir ferramentas e como tirar proveito desses gatilhos mentais e como isso pode ajudar a gerar valor na sua empresa, com o objetivo de aumentar as suas vendas e impactar positivamente a vida de milhares de pessoas.
+      </p>
+    </div>
+    <div class="item">
+      <img src="./imagens/o poder do habito.jpg">
+      <h2>O poder do hábito</h2>
+      <p>
+        Tentavam desesperadamente descobrir como vender um novo produto chamado Febreze, que estava prestes
+        a se tornar um dos maiores fracassos na história da empresa. Seu primeiro passo é atacar um único padrão
+        entre os funcionários, a maneira como lidam com a segurança no ambiente de trabalho, e logo a empresa
+        começa a ter o melhor desempenho no índice Dow Jones
+      </p>
+    </div>
+    <div class="item">
+      <img src="./imagens/SPRINT.png">
+      <h2>Sprint</h2>
+      <p>
+        Este livro vai mudar a sua visão sobre como trabalhar dentro de um time ágil! É com essa frase que
+        Annelise Gripp abre o prefácio da obra de Mary Provinciatto e Paulo Caroli! Os autores juntaram seus
+        anos de experiência em diferentes cargos e empresas para compor um livro completo e ideal para todos
+        os profissionais que já trabalham ou que desejam trabalhar dentro de um time ágil.
+      </p>
+    </div>
+    <div class="item">
+      <img src="./imagens/FOCO.png">
+      <h2>Foco</h2>
+      <p>
+        Você está prestando atenção? Ou já se distraiu checando seus e-mails, mensagens, Facebook, Twitter? 
+        Resistiu ao impulso de deixar sua mente divagar? Se tiver resistido, muito bem: normalmente uma pessoa 
+        fica distraída por mais de 40% do tempo quando lê um texto. Segundo Daniel Goleman, autor do best-seller
+         Inteligência emocional, a atenção funciona de forma muito parecida com um músculo: se não o utilizamos, 
+         fica atrofiado; se o exercitamos, se desenvolve e se fortalece.
+      </p>
+    </div>
+  </div>
+  <script src="scripts/script_mesa_aula5.js"></script>
+</body>
+
+</html>
